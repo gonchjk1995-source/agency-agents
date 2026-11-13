@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- outer glow ring -->
+    <path android:strokeWidth="6" android:strokeColor="#3300F0FF"
+        android:pathData="M54,30a24,24 0 1,0 0.01,0z" />
+    <path android:strokeWidth="2.4"
+        android:pathData="M54,30a24,24 0 1,0 0.01,0z">
+        <aapt:attr name="android:strokeColor">
+            <gradient android:type="linear" android:startX="30" android:startY="30"
+                android:endX="78" android:endY="78"
+                android:startColor="#FF00F0FF" android:endColor="#FFFF2BD6" />
+        </aapt:attr>
+    </path>
+    <!-- hud ticks -->
+    <path android:strokeWidth="1.6" android:strokeColor="#FF00F0FF"
+        android:pathData="M54,24v-4 M54,88v-4 M24,54h-4 M88,54h-4" />
+    <!-- play triangle -->
+    <path android:pathData="M48,43 L66,54 L48,65z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="48" android:startY="43"
+                android:endX="66" android:endY="65"
+                android:startColor="#FFE8F7FF" android:endColor="#FF00F0FF" />
+        </aapt:attr>
+    </path>
+</vector>
